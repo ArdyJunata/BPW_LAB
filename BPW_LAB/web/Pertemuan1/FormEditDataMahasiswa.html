@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Form Edit Data Manusia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post">
+            <table width="50%" border="1" cellpadding="5">
+                <tr>
+                    <th rowspan="4"><img src="pcr.png" width="200"></th>
+                    <th colspan="2" align="center"><h1>Form Edit Data Mahasiswa</h1></th>
+                </tr>
+                <tr>
+                    <th colspan="2" align="center"><h2>Data Mahasiswa</h2></th>
+                </tr>
+                <tr>
+                    <th align="center" width="300"><h3>Bengkel Pemrograman Web 1</h3></th>
+                    <th align="center" width="300"><h3>Dibuat Oleh : Muhammad Ardy Junata</h3></th>
+                </tr>
+                <tr>
+                    <th align="center"><h3>Teknik Informatika</h3></th>
+                    <th align="center"><h3>Disetujui Oleh : Rika Perdana Sari, S.T.,M.Eng</h3></th>
+                </tr>
+                <tr>
+                    <td rowspan="5"><img src="profil.JPG" width="200"></td>
+                    <td>NIM : </td>
+                    <td>
+                        <input type="text" name="nim">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nama : </td>
+                    <td>
+                        <input type="text" name="nama">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin : </td>
+                    <td>
+                        <input type="radio" name="jk">Laki-Laki <br>
+                        <input type="radio" name="jk" checked>Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Program Studi : </td>
+                    <td>
+                        <select>
+                            <option value="pilih">Pilih Prodi</option>
+                            <option value="pilih">Teknik Informatika</option>
+                            <option value="pilih">Teknik Komputer</option>
+                            <option value="pilih">Sistem Informasi</option>
+                            <option value="pilih">Teknik Mekatronika</option>
+                            <option value="pilih">Teknik Listrik</option>
+                            <option value="pilih">Akuntansi</option>
+                            <option value="pilih">Teknik Elektronika</option>
+                            <option value="pilih">Teknik Elektronika Telekomunikasi</option>
+                            <option value="pilih">Teknik Mesin</option>
+                            <option value="pilih">Teknik Telekomunikasi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mata Kuliah Pilihan : </td>
+                    <td>
+                        <input type="checkbox" name="matkul" checked> Pemrograman Web 1 <br>
+                        <input type="checkbox" name="matkul" checked> E-Business <br>
+                        <input type="checkbox" name="matkul" checked> Kapita Selekta <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center"><button type="submit" width="40"><h3>Simpan</h3></button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
